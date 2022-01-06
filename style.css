@@ -73,12 +73,17 @@ p {
   text-align: center;
 }
 .half-part img {
-  width: 98%;
+  width: 65%;
   height: 90%;
   border-radius: 10%;
   box-shadow: rgb(255 255 255 / 56%) 26px 33px 31px 46px;
   margin-top: 35px;
   opacity: 0.9;
+  transition: .5s;
+}
+.half-part img:hover {
+  transform: scale(1.1) ;
+  
 }
 .content {
   margin-top: 60px;
@@ -128,6 +133,10 @@ p {
   border-radius: 20px;
   margin: 200px 0 0 50px;
   box-shadow: 24px 29px 35px 4px rgb(255 255 255 / 70%);
+}
+.pillar:hover{
+  transform: scale(1.1) ;
+  transition: .5s;
 }
 .pilar-img {
   width: 100%;
@@ -183,6 +192,11 @@ p {
   margin-top: 125px;
   margin-right: 50px;
   opacity: 0.9;
+}
+
+.half-part-holy img:hover{
+  transform: scale(1.1) translate(10px, -10px) ;
+  transition: .5s;
 }
 
 /* Holy place Css Ends */
