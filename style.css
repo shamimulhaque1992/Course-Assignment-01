@@ -13,6 +13,7 @@ h2 {
   font-size: 25px;
   padding-left: 5px;
 }
+
 .btn {
   display: inline-block;
   height: 35px;
@@ -224,10 +225,10 @@ p {
 
 .instractor {
   position: absolute;
-  top: 1060px;
+  top: 966px;
   text-align: center;
   display: flex;
-  width: 100%;
+  width: 50%;
   height: 290px;
   /* border: 1px solid black; */
 }
@@ -252,6 +253,9 @@ p {
 .ins-img img:hover {
   transform: scale(1.1) translate(10px, 10px);
   transition: 1s;
+}
+.ins-img h3{
+  margin:70px 0 70px -5px;
 }
 
 /* Online course Css Ends */
