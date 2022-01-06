@@ -17,7 +17,7 @@ h2 {
   display: inline-block;
   height: 35px;
   width: 150px;
-  background-image: linear-gradient(rgb(255, 4, 4), rgb(231, 238, 233));
+  background-image: linear-gradient(rgb(255, 4, 4), rgb(255, 255, 255));
   color: white;
   text-decoration: none;
   padding-top: 15px;
@@ -226,11 +226,11 @@ p {
   left: 700px;
   color: #fff;
 }
-.copyright a{
-    color: #fff;;
+.copyright a {
+  color: #fff;
 }
-.copyright p{
-    color: rgba(212, 209, 175, 0.376);;
+.copyright p {
+  color: rgba(212, 209, 175, 0.376);
 }
 
 /* Online course Css Ends */
